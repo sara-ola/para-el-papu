@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 print("si el amor fuese un número entre 500 y 1000...")
 
-xg = int(input("¿entre esos números cuanto crees que te amo?: "))
+xg = st.number_input("¿entre esos números cuanto crees que te amo?: "))
 
 xb = np.linspace((-2),2, int(xg))
 fx = np.sqrt(1+(-1)*(np.abs(xb)+(-1))**2)
